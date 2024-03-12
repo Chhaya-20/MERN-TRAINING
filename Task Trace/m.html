@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mystyle1{
+            display: block;
+        }
+        .mystyle2{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="button" class="button ">click me</button>
+    <div class="ex mystyle1" id="myDIV">
+        nfkdkgenk
+    </div>
+    <div id="demo"></div>
+</body>
+<script>
+    const button =  document.getElementById("button")
+    console.log(button);
+
+//     button.addEventListener("click", function() {
+//   document.getElementById("demo").innerHTML = "Hello World";
+// });
+
+
+button.addEventListener('onClick',()=>{
+    console.log("fjbefme")
+    var element = document.getElementById("myDIV");
+    if(element.contains(mystyle1))
+    {
+        element.classList.remove("mystyle1");
+        element.classList.add("mystyle2");
+
+    }
+    else{
+        lement.classList.remove("mystyle2");
+        element.classList.add("mystyle1");
+    }
+  //element.classList.add("mystyle");
+})
+</script>
+
+</html>
