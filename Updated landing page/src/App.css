@@ -45,7 +45,7 @@
 .header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  padding: 1px;
 }
 
 .header h1 {
@@ -90,7 +90,7 @@ nav ul li a {
   margin-bottom: 10px;
 }
 .card {
- width: 30%;
+  width: 30%;
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -101,7 +101,7 @@ nav ul li a {
 
 .card-img {
   width: 100%;
-  height: auto;
+  height: 195px;
   object-fit: cover;
 }
 
@@ -119,30 +119,37 @@ nav ul li a {
   color: #555;
   font-size: 16px;
 }
-/* styles.css */
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 200px;
+ 
   margin: 10px;
+  height: fit-content;
+    padding: 10px 
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-img{
+/* img{
   height: 40%;
   width: 100%;
-}
+} */
 .container {
   padding: 2px 16px;
+  text-align: center;
 }
 .card-container{
   display: flex;
   justify-content: space-between;
 }
-.cont{
-  height: 100%;
-  width: 100%;
-  background-color: #8c8c8c;
+button{
+  background-color:#333 ;
+  color: white;
+  text-align: center;
+}
+img{
+  height: auto;
+    width: 100%;
 }
