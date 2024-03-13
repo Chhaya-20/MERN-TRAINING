@@ -30,7 +30,7 @@ const items = [
     brand: 'Sony',
     price: 149.99,
     description: 'High-fidelity headphones for immersive audio experience.',
-    image: 'https://m.media-amazon.com/images/I/41tp0JPPlmL._AC_UF1000,1000_QL80_.jpg',
+    image: 'https://m.media-amazon.com/images/I/31UKyEjfHQL._SX300_SY300_QL70_FMwebp_.jpg',
   },
   {
     id: 4,
