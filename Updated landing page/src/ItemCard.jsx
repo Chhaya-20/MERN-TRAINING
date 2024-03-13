@@ -4,9 +4,7 @@ import './App.css'
 const ItemCard = ({ item }) => {
   return (
     <div className="card">
-      <img src={item.image} alt="" />
-      <div className="container">
-        
+      <img src={item.image} alt="" />    
        
         <h4><b>{item.name}</b></h4>
         <p>{item.brand}</p>
@@ -15,7 +13,7 @@ const ItemCard = ({ item }) => {
         <p>{item.brand}</p>
        
        
-      </div>
+     
     </div>
   );
 };
