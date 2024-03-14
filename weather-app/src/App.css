@@ -1,0 +1,166 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.numb{
+  font-weight: 00;
+  font-size: .5em;
+}
+body{
+  
+  background-color: #43affc82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container
+{
+  display: inline-block;
+  background-color: white;
+border-radius: 5px;
+  width: 30vw;
+  border: 1px solid #00000070;
+    border-radius: 20px;
+  
+}
+#weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#weather img{
+  max-width: 125px;
+}
+#weather h2{
+  color: black;
+}
+#main{
+  /* display: none; */
+}
+.location{
+  display: flex;
+  font-size: 19px;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  align-items: flex-start;
+}
+.bottom i{
+  color: #5dbbff;
+  font-size: 2.5em;
+}
+.temp , .details{
+  font-size: 1.15em;
+  font-weight:bold;
+  margin-top: -3px;
+  display: flex;
+  flex-direction: column;
+
+}
+.column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 18.5px;
+  
+}
+.right{
+  border-left: 1px solid black;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+
+.container h2{
+  color: #43AFFC;
+  font-size: 30px;
+  padding: 10px;
+}
+
+
+
+#sub
+{
+  margin-top: 30px;
+  background-color: #43AFFC;
+  color: white;
+  font-size: 30px;
+  width: 40px;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  width: 80%;
+  border: #43AFFC;
+  
+}
+.image{
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+.input-part .info-txt {
+  display: none;
+  font-size: 1.30em;
+  text-align: center;
+  padding: 12px 10px;
+  border-radius: 7px;
+  margin-bottom: 15px;
+  background-color: lightcoral;
+}
+
+.content{
+  padding: 20px;
+}
+.input-part input {
+  margin: auto;
+  text-align: center;
+  padding: 0 15px;
+  display: block;
+  border: 1px solid #ccc;
+  width: 82%;
+  height: 55px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 1.12em;
+  border-radius: 7px;
+
+}
+
+.input-part .separator {
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#sub {
+  color: #fff;
+  cursor: pointer;
+  background: #43affc;
+  transition: .3s ease;
+  width: 92%;
+  height: 55px;
+  border: none;
+  outline: none;
+  font-size: 1.12em;
+  border-radius: 7px;
+  margin-top: 40px;
+  margin-left: 10px;
+} 
